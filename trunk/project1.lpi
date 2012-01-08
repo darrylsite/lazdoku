@@ -1,0 +1,291 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <PathDelim Value="\"/>
+    <Version Value="7"/>
+    <General>
+      <Flags>
+        <LRSInOutputDirectory Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <TargetFileExt Value=".exe"/>
+      <UseAppBundle Value="False"/>
+      <ActiveEditorIndexAtStart Value="0"/>
+    </General>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <CurrentVersionNr Value="1"/>
+      <Language Value="040C"/>
+      <CompanyName Value="nabster's"/>
+      <FileDescription Value="solveur de grille de sudoku"/>
+      <LegalCopyright Value="2009 Kpizingui Darryl. http://darkpi.100webspace.net"/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="G:\Documents\backup\cle\projet\dvp\publish"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="\usr\X11R6\bin\xterm -T 'Lazarus Run Output' -e $(LazarusDir)\tools\runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="27">
+      <Unit0>
+        <Filename Value="project1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="project1"/>
+        <CursorPos X="9" Y="22"/>
+        <TopLine Value="13"/>
+        <EditorIndex Value="0"/>
+        <UsageCount Value="200"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="sud2.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="sud2"/>
+        <CursorPos X="27" Y="13"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="200"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="utgroupcontrolor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTGroupControlor"/>
+        <CursorPos X="33" Y="29"/>
+        <TopLine Value="18"/>
+        <UsageCount Value="200"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="utiasolver.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utiasolver"/>
+        <CursorPos X="21" Y="63"/>
+        <TopLine Value="50"/>
+        <UsageCount Value="200"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="utplateau.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTPlateau"/>
+        <CursorPos X="9" Y="11"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="200"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="utarraylist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utarraylist"/>
+        <CursorPos X="5" Y="10"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="200"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="utcase.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTCase"/>
+        <CursorPos X="22" Y="44"/>
+        <TopLine Value="33"/>
+        <UsageCount Value="200"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="utcontrolor.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utcontrolor"/>
+        <CursorPos X="28" Y="33"/>
+        <TopLine Value="21"/>
+        <UsageCount Value="200"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="utdisplay.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utdisplay"/>
+        <CursorPos X="31" Y="39"/>
+        <TopLine Value="28"/>
+        <UsageCount Value="200"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="utfileloader.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utfileloader"/>
+        <CursorPos X="38" Y="40"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="200"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="utfilesaver.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utfilesaver"/>
+        <CursorPos X="2" Y="56"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="200"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="utgenerator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utgenerator"/>
+        <CursorPos X="6" Y="14"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="200"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="utgroup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="UTGroup"/>
+        <CursorPos X="22" Y="29"/>
+        <TopLine Value="17"/>
+        <UsageCount Value="200"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="epiktimer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="EpikTimer"/>
+        <CursorPos X="52" Y="60"/>
+        <TopLine Value="50"/>
+        <UsageCount Value="200"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="uthreadsolve.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uthreadsolve"/>
+        <CursorPos X="22" Y="165"/>
+        <TopLine Value="143"/>
+        <UsageCount Value="120"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="utpanels.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utpanels"/>
+        <CursorPos X="21" Y="280"/>
+        <TopLine Value="274"/>
+        <UsageCount Value="117"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="ulicence.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="licence"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ulicence"/>
+        <CursorPos X="1" Y="1"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="79"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="uaide.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fAide"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uaide"/>
+        <CursorPos X="24" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="70"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="utconst.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="utConst"/>
+        <CursorPos X="43" Y="3"/>
+        <TopLine Value="1"/>
+        <UsageCount Value="31"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\usr\share\fpcsrc\2.4.0\rtl\objpas\classes\classesh.inc"/>
+        <CursorPos X="19" Y="1429"/>
+        <TopLine Value="1425"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\usr\share\fpcsrc\2.4.0\rtl\inc\objpash.inc"/>
+        <CursorPos X="23" Y="175"/>
+        <TopLine Value="164"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\..\..\usr\share\fpcsrc\2.4.0\rtl\unix\tthread.inc"/>
+        <CursorPos X="19" Y="169"/>
+        <TopLine Value="163"/>
+        <UsageCount Value="10"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="..\..\..\usr\share\fpcsrc\2.4.0\rtl\inc\threadh.inc"/>
+        <CursorPos X="37" Y="127"/>
+        <TopLine Value="113"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="..\..\..\usr\share\fpcsrc\2.4.0\rtl\unix\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <CursorPos X="1" Y="182"/>
+        <TopLine Value="182"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="..\..\..\usr\lib\lazarus\0.9.28.2\lcl\interfaces\gtk2\interfaces.pas"/>
+        <UnitName Value="Interfaces"/>
+        <CursorPos X="11" Y="31"/>
+        <TopLine Value="22"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="..\..\..\usr\lib\lazarus\0.9.28.2\lcl\interfacebase.pp"/>
+        <UnitName Value="InterfaceBase"/>
+        <CursorPos X="12" Y="180"/>
+        <TopLine Value="162"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="..\..\..\usr\lib\lazarus\0.9.28.2\lcl\include\interfacebase.inc"/>
+        <CursorPos X="1" Y="91"/>
+        <TopLine Value="69"/>
+        <UsageCount Value="10"/>
+      </Unit26>
+    </Units>
+    <JumpHistory Count="1" HistoryIndex="0">
+      <Position1>
+        <Filename Value="project1.lpr"/>
+        <Caret Line="22" Column="9" TopLine="13"/>
+      </Position1>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="8"/>
+    <PathDelim Value="\"/>
+    <Parsing>
+      <SyntaxOptions>
+        <CStyleOperator Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Optimizations>
+        <VariablesInRegisters Value="True"/>
+        <OptimizationLevel Value="3"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <UseLineInfoUnit Value="False"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <WriteFPCLogo Value="False"/>
+      <CompilerPath Value="$(CompPath)"/>
+      <CreateMakefileOnBuild Value="True"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

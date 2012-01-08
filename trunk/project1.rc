@@ -1,0 +1,26 @@
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040C04E4"
+  {
+   VALUE "Comments", "\000"
+   VALUE "CompanyName", "nabster's\000"
+   VALUE "FileDescription", "solveur de grille de sudoku\000"
+   VALUE "FileVersion", "1.0.0.0\000"
+   VALUE "InternalName", "\000"
+   VALUE "LegalCopyright", "2009 Kpizingui Darryl. http://darkpi.100webspace.net\000"
+   VALUE "LegalTrademarks", "\000"
+   VALUE "OriginalFilename", "\000"
+   VALUE "ProductName", "\000"
+   VALUE "ProductVersion", "1.0.0.0\000"
+  }
+ }
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0x040C, 0x04E4
+ }
+}
+
