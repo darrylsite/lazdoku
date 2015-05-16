@@ -1,0 +1,1 @@
+LazDoku v.1 is a Sudoku solver written in Free Pascal using Lazarus that can solve grids of any difficulty.
